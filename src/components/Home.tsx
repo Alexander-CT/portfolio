@@ -13,7 +13,7 @@ function Home() {
             <Navbar/>
             <h1>Castro Tocaffondi</h1>
             <p>FullStack developer</p>
-            <iframe src="https://github.com/Alexander-CT/portfolio/tree/main/src/assets/CASTRO_TOCAFFONDI_ALEXANDER_PIERO_CurriculumVitae.pdf" width="800" height="500"></iframe>
+            <iframe src="https://drive.google.com/file/d/1H9N1ttqArxlfDr0csGvYzCGfS8fqi1qV/preview" width="800" height="500"></iframe>
         </>
   )
 }
