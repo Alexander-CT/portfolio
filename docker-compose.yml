@@ -1,0 +1,21 @@
+version: '3.8'
+name: "my-website"
+services:
+  node:
+    container_name: my-website-node
+    # image: "node:18.12.0-alpine3.16"
+    image: node:18.12
+    user: "node"
+    working_dir: /home/node/app
+    # environment:
+    #   - NODE_ENV=production
+    volumes:
+      - ./:/home/node/app
+    # expose:
+    #   - "8081"
+    ports:
+      - '8081:8081'
+    command:
+      - "bash -c npm install"
+      # - "ls"
+    # restart: on-failure:5
